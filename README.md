@@ -43,17 +43,11 @@ cd 42-ft_printf
 
 ### 2. Compiling the library
 
-To compile the library, go to its path and run:
 
-For __basic__ functions:
 ```
 make all
 ```
 
-For __bonus__ functions:
-```
-make bonus
-```
 
 ### 3. Cleaning all binary (.o) and executable files (.a)
 
