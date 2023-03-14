@@ -74,7 +74,7 @@ To use the library functions in your code, simply include this header:
 ```
 
 ## Testing
-This library have been tested with the normal and strict mode of [Francinette](https://github.com/xicodomingues/francinette) to the date of 12/12/2022.
+This library have been tested with the normal and strict mode of [Francinette](https://github.com/xicodomingues/francinette) to the date of 14/03/2023.
 
 ## License
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
