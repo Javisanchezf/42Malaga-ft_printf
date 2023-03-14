@@ -6,7 +6,7 @@
 
 > School 42 Málaga cursus project.
 
-This repository contains all archives for the project __Libft__ in the __School 42 Málaga core cursus__. It's a custom-made library of useful functions in __C language__. The repository includes the `Makefile` and the `ft_printf.h` library.
+This repository contains all archives for the project __ft_printf__ in the __School 42 Málaga core cursus__. It's a custom-made library of useful functions in __C language__. The repository includes the `Makefile` and the `ft_printf.h` library.
 
 <h2 align = center>
 	<a href="#about">About</a>
