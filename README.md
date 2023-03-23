@@ -24,7 +24,7 @@ This repository contains all archives for the project __ft_printf__ in the __Sch
 
 ## About
 
-This project is a __C library__ of useful functions that are allowed to be used in future __School 42 cursus__ projects. With access to this library, the coding proccess in incoming projects will be more effective. The aim of rewrite this functions is to get a better understanding of them, and get a whide range of utilities for the next projects. [You can find more information in the subject](https://github.com/Javisanchezf/42pdfs/blob/main/ft_printf_subject.pdf). As it's specified in the subjet, all the archives are in the same folder.
+This project is a __C Printf__ to recode the printf() function from libc to be used in future __School 42 cursus__ projects. [You can find more information in the subject](https://github.com/Javisanchezf/42pdfs/blob/main/ft_printf_subject.pdf).
 
 The code in this repository follows [the rules of the Norminette](https://github.com/Javisanchezf/42pdfs/blob/main/norme.pdf).
 
