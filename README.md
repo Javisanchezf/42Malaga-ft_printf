@@ -29,7 +29,7 @@ This project is a __C Printf__ to recode the printf() function from libc to be u
 The code in this repository follows [the rules of the Norminette](https://github.com/Javisanchezf/42Malaga-pdfs/blob/main/norme.pdf).
 
 ## Index
-Replicates the operation of the printf function.
+Replicates the operation of the get next line function.
 ## Requirements
 The library is written in __C language__ and needs the `gcc` compiler, with `<stdarg.h>` and `<unistd.h>` standard libraries to run.
 
