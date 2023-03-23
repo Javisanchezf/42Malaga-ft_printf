@@ -37,7 +37,7 @@ The library is written in __C language__ and needs the `gcc` compiler, with `<st
 
 ### 1. Download the repository
 ```
-git clone https://github.com/Javisanchezf/42-ft_printf.git 42-ft_printf
+git clone https://github.com/Javisanchezf/42Malaga-ft_printf.git
 cd 42-ft_printf
 ```
 
