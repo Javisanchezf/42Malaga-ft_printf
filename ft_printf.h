@@ -21,6 +21,7 @@ int	ft_printfchar(char c);
 int	ft_printfstring(char *s);
 int	ft_printfnbr(int n);
 int	ft_printfunsnbr(unsigned int n);
-int	ft_printfhex(void *v, char type);
+int	ft_printfhex(unsigned int v, char type);
+int	ft_printfpointer(void *v);
 
 #endif

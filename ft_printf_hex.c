@@ -23,17 +23,6 @@ static void	ft_showhex(unsigned long nbr, char *base)
 		ft_printfchar(base[nbr]);
 }
 
-static void	ft_showhexint(unsigned int nbr, char *base)
-{
-	if (nbr >= 16)
-	{
-		ft_showhex(nbr / 16, base);
-		ft_showhex(nbr % 16, base);
-	}
-	else
-		ft_printfchar(base[nbr]);
-}
-
 static	int	ft_counthex(unsigned long v)
 {
 	int	i;
@@ -46,33 +35,25 @@ static	int	ft_counthex(unsigned long v)
 	return (i);
 }
 
-static	int	ft_counthexint(unsigned int v)
-{
-	int	i;
-
-	i = 0;
-	if (v == 0)
-		i++;
-	while (v >= 1 && i++ >= 0)
-		v = v / 16;
-	return (i);
-}
-
-int	ft_printfhex(void *v, char type)
+int	ft_printfpointer(void *v)
 {
 	int		i;
 
 	i = 0;
-	if (type == 'p')
-	{
-		i = 2;
-		write (1, "0x", 2);
-		ft_showhex((unsigned long)v, "0123456789abcdef");
-		return (ft_counthex((unsigned long)v) + i);
-	}
+	i = 2;
+	write (1, "0x", 2);
+	ft_showhex((unsigned long)v, "0123456789abcdef");
+	return (ft_counthex((unsigned long)v) + i);
+}
+
+int	ft_printfhex(unsigned int v, char type)
+{
+	int		i;
+
+	i = 0;
 	if (type == 'x')
-		ft_showhexint((unsigned int)v, "0123456789abcdef");
+		ft_showhex((unsigned int)v, "0123456789abcdef");
 	else if (type == 'X')
-		ft_showhexint((unsigned int)v, "0123456789ABCDEF");
-	return (ft_counthexint((unsigned int)v) + i);
+		ft_showhex((unsigned int)v, "0123456789ABCDEF");
+	return (ft_counthex((unsigned int)v) + i);
 }
