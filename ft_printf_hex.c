@@ -35,15 +35,15 @@ static	int	ft_counthex(unsigned long v)
 	return (i);
 }
 
-int	ft_printfpointer(void *v)
+int	ft_printfpointer(unsigned long v)
 {
 	int		i;
 
 	i = 0;
 	i = 2;
 	write (1, "0x", 2);
-	ft_showhex((unsigned long)v, "0123456789abcdef");
-	return (ft_counthex((unsigned long)v) + i);
+	ft_showhex(v, "0123456789abcdef");
+	return (ft_counthex(v) + i);
 }
 
 int	ft_printfhex(unsigned int v, char type)
@@ -52,8 +52,8 @@ int	ft_printfhex(unsigned int v, char type)
 
 	i = 0;
 	if (type == 'x')
-		ft_showhex((unsigned int)v, "0123456789abcdef");
+		ft_showhex(v, "0123456789abcdef");
 	else if (type == 'X')
-		ft_showhex((unsigned int)v, "0123456789ABCDEF");
-	return (ft_counthex((unsigned int)v) + i);
+		ft_showhex(v, "0123456789ABCDEF");
+	return (ft_counthex(v) + i);
 }

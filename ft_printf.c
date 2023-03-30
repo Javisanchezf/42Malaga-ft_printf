@@ -26,7 +26,7 @@ static int	ft_checkformat(const char *type, va_list args)
 	else if (*type == 'u')
 		i += ft_printfunsnbr(va_arg(args, int));
 	else if (*type == 'p')
-		i += ft_printfpointer(va_arg(args, void *));
+		i += ft_printfpointer(va_arg(args, unsigned long));
 	else if (*type == 'x' || *type == 'X')
 		i += ft_printfhex(va_arg(args, int), *type);
 	else if (*type != 0)
