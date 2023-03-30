@@ -46,7 +46,7 @@ static	int	ft_counthex(unsigned long v)
 	return (i);
 }
 
-static	int	ft_counthexint(unsigned long v)
+static	int	ft_counthexint(unsigned int v)
 {
 	int	i;
 
